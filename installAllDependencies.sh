@@ -24,7 +24,8 @@ tar zxf pip-1.5.6.tar.gz
 cd pip-1.5.6
 $OPENSHIFT_DATA_DIR/bin/python setup.py install
 
-# get opencv pkg
+#Installing OpenCV
+cd $OPENSHIFT_TMP_DIR
 wget http://pkgs.fedoraproject.org/repo/pkgs/opencv/OpenCV-2.4.3.tar.bz2/c0a5af4ff9d0d540684c0bf00ef35dbe/OpenCV-2.4.3.tar.bz2
 tar xvf OpenCV-2.4.3.tar.bz2
 rm OpenCV-2.4.3.tar.bz2
